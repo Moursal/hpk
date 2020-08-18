@@ -1,0 +1,59 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/c85980/Bureau/File_Code/hpk/src/Unt_test/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c758/fast"
+make[3] : on entre dans le répertoire « /home/c85980/Bureau/File_Code/hpk/src/Unt_test/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_0c758.dir/build.make CMakeFiles/cmTC_0c758.dir/build
+make[4] : on entre dans le répertoire « /home/c85980/Bureau/File_Code/hpk/src/Unt_test/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_0c758.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0c758.dir/CheckSymbolExists.c.o   -c /home/c85980/Bureau/File_Code/hpk/src/Unt_test/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0c758
+/opt/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c758.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0c758.dir/CheckSymbolExists.c.o  -o cmTC_0c758 
+CMakeFiles/cmTC_0c758.dir/CheckSymbolExists.c.o : Dans la fonction « main » :
+CheckSymbolExists.c:(.text+0x1b) : référence indéfinie vers « pthread_create »
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0c758.dir/build.make:86 : la recette pour la cible « cmTC_0c758 » a échouée
+make[4]: *** [cmTC_0c758] Erreur 1
+make[4] : on quitte le répertoire « /home/c85980/Bureau/File_Code/hpk/src/Unt_test/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp »
+Makefile:121 : la recette pour la cible « cmTC_0c758/fast » a échouée
+make[3]: *** [cmTC_0c758/fast] Erreur 2
+make[3] : on quitte le répertoire « /home/c85980/Bureau/File_Code/hpk/src/Unt_test/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp »
+
+File /home/c85980/Bureau/File_Code/hpk/src/Unt_test/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/c85980/Bureau/File_Code/hpk/src/Unt_test/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34fc0/fast"
+make[3] : on entre dans le répertoire « /home/c85980/Bureau/File_Code/hpk/src/Unt_test/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTC_34fc0.dir/build.make CMakeFiles/cmTC_34fc0.dir/build
+make[4] : on entre dans le répertoire « /home/c85980/Bureau/File_Code/hpk/src/Unt_test/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_34fc0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_34fc0.dir/CheckFunctionExists.c.o   -c /opt/cmake/3.12.1/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_34fc0
+/opt/cmake/3.12.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34fc0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_34fc0.dir/CheckFunctionExists.c.o  -o cmTC_34fc0 -lpthreads 
+/usr/bin/ld : ne peut trouver -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_34fc0.dir/build.make:86 : la recette pour la cible « cmTC_34fc0 » a échouée
+make[4]: *** [cmTC_34fc0] Erreur 1
+make[4] : on quitte le répertoire « /home/c85980/Bureau/File_Code/hpk/src/Unt_test/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp »
+Makefile:121 : la recette pour la cible « cmTC_34fc0/fast » a échouée
+make[3]: *** [cmTC_34fc0/fast] Erreur 2
+make[3] : on quitte le répertoire « /home/c85980/Bureau/File_Code/hpk/src/Unt_test/build/googletest-prefix/src/googletest-build/CMakeFiles/CMakeTmp »
+
+

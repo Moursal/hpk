@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.cxx
+iostream
+-
+algorithm
+-
+execution
+-
+iterator
+-
+mutex
+-
+vector
+-
+

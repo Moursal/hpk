@@ -1,0 +1,13 @@
+Clonage dans 'googletest'...
+Note : extraction de 'release-1.8.0'.
+
+Vous êtes dans l'état « HEAD détachée ». Vous pouvez visiter, faire des modifications
+expérimentales et les valider. Il vous suffit de faire une autre extraction pour
+abandonner les commits que vous faites dans cet état sans impacter les autres branches
+
+Si vous voulez créer une nouvelle branche pour conserver les commits que vous créez,
+il vous suffit d'utiliser « checkout -b » (maintenant ou plus tard) comme ceci :
+
+  git checkout -b <nom-de-la-nouvelle-branche>
+
+HEAD est maintenant sur ec44c6c1... Merge pull request #821 from mazong1123/master

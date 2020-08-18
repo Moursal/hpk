@@ -1,0 +1,1 @@
+/home/c85980/ins_gcc/bin/c++     CMakeFiles/test1.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.cxx.o  -o test1 -L/home/c85980/Desk/Tools/tbb-2020.3-lin/tbb/lib/intel64/gcc4.8 -ltbb 

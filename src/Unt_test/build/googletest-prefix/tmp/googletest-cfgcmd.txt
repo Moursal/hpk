@@ -1,0 +1,1 @@
+cmd='/opt/cmake/3.12.1/bin/cmake;-DCMAKE_C_COMPILER:PATH=/usr/bin/cc;-DCMAKE_CXX_COMPILER:PATH=/usr/bin/c++;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
