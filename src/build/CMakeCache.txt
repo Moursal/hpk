@@ -112,9 +112,6 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
-//No help, variable specified on the command line.
-CMAKE_PREFIX_PATH:UNINITIALIZED=/home/c85980/
-
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=HPK
 
@@ -197,9 +194,6 @@ HPK_BINARY_DIR:STATIC=/home/c85980/Desk/File_Code/hpk2/hpk/src/build
 
 //Value Computed by CMake
 HPK_SOURCE_DIR:STATIC=/home/c85980/Desk/File_Code/hpk2/hpk/src
-
-//No help, variable specified on the command line.
-TBB_DIR:UNINITIALIZED=/home/c85980/Desk/Tools/tbb-2020.3-lin/tbb/cmake
 
 //No help, variable specified on the command line.
 TBB_LIB_DIR:UNINITIALIZED=/home/c85980/Desk/Tools/tbb-2020.3-lin/tbb/lib/intel64/gcc4.8

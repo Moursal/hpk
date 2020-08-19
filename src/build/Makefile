@@ -170,19 +170,6 @@ double_dgemm/fast:
 .PHONY : double_dgemm/fast
 
 #=============================================================================
-# Target rules for targets named test1
-
-# Build rule for target.
-test1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test1
-.PHONY : test1
-
-# fast build rule for target.
-test1/fast:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/build
-.PHONY : test1/fast
-
-#=============================================================================
 # Target rules for targets named hpk
 
 # Build rule for target.
@@ -249,33 +236,6 @@ home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.s:
 	$(MAKE) -f CMakeFiles/double_dgemm.dir/build.make CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.s
 .PHONY : home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.s
 
-home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.o: home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.cxx.o
-
-.PHONY : home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.o
-
-# target to build an object file
-home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.cxx.o:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.cxx.o
-.PHONY : home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.cxx.o
-
-home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.i: home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.cxx.i
-
-.PHONY : home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.i
-
-# target to preprocess a source file
-home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.cxx.i:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.cxx.i
-.PHONY : home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.cxx.i
-
-home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.s: home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.cxx.s
-
-.PHONY : home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.s
-
-# target to generate assembly for a file
-home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.cxx.s:
-	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.cxx.s
-.PHONY : home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.cxx.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -289,7 +249,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... double_dgemm"
-	@echo "... test1"
 	@echo "... hpk"
 	@echo "... core/hpk.o"
 	@echo "... core/hpk.i"
@@ -297,9 +256,6 @@ help:
 	@echo "... home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.o"
 	@echo "... home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.i"
 	@echo "... home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.s"
-	@echo "... home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.o"
-	@echo "... home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.i"
-	@echo "... home/c85980/Desk/File_Code/hpk2/hpk/examples/test1.s"
 .PHONY : help
 
 
