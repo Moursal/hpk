@@ -54,7 +54,8 @@ public:
 
      
       PstlMatrix<T> m_other_cpy = m_other;
-
+	
+	// Transpose Left Matrix	  
       for(int ii=0;ii<m_;ii++){
         for(int jj=0;jj<m_other_cpy.n_;jj++){
           m_other_cpy.data_[jj*(m_other_cpy.n_)+ii] = m_other.data_[ii*(m_other.n_)+jj];
