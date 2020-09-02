@@ -1,8 +1,10 @@
 #include <iostream>
 #include <string>
+#include <chrono>
 #include "../types/blas_matrix.hxx"
 #include "../types/openmp_matrix.hxx"
 #include "../types/tbb_matrix.hxx"
+#include "../types/pstl_matrix.hxx"
 #include "../kernels/dgemm/dgemm_kernel.hxx"
 #include "hpk_utils.hxx"
 
@@ -23,26 +25,37 @@ int main(void){
   // TBB matrix multiplication
   std::unique_ptr<Matrix> ma_tbb = std::make_unique<TbbMatrix<double>>(2,3);
   std::unique_ptr<Matrix> mb_tbb = std::make_unique<TbbMatrix<double>>(3,2);
-  /*
-  ma->random_fill(3.0,4.0);
-  mb->random_fill(3.0,4.0);
-  */
+
   ma_tbb->fill();
   mb_tbb->fill();
 
   std::cout<<std::endl<<"A-Tbb:"<<*ma_tbb;
   std::cout<<"B-Tbb:"<<*mb_tbb;
+  //auto t1 = std::chrono::high_resolution_clock::now();
   std::unique_ptr<Matrix> mc_tbb = (*ma_tbb)*(*mb_tbb);
+  //auto t2 = std::chrono::high_resolution_clock::now();
+  //std::chrono::duration<double, std::milli> rr = t2 - t1;
+  //std::cout << "Tbb Multiplication std::accumulate = " << rr.count()<< std::endl;    
   std::cout<<"C-Tbb:"<<*mc_tbb;
+
+
+  // Pstl matrix multiplication
+  std::unique_ptr<Matrix> ma_pstl = std::make_unique<PstlMatrix<double>>(2,3);
+  std::unique_ptr<Matrix> mb_pstl = std::make_unique<PstlMatrix<double>>(3,2);
+
+  ma_pstl->fill();
+  mb_pstl->fill();
+
+  std::cout<<std::endl<<"A-Pstl:"<<*ma_pstl;
+  std::cout<<"B-Pstl:"<<*mb_pstl;
+  std::unique_ptr<Matrix> mc_pstl = (*ma_pstl)*(*mb_pstl);
+  std::cout<<"C-Pstl:"<<*mc_pstl;
 
 
   // OpenMP matrix multiplication
   std::unique_ptr<Matrix> ma_openmp = std::make_unique<OpenmpMatrix<double>>(2,3);
   std::unique_ptr<Matrix> mb_openmp = std::make_unique<OpenmpMatrix<double>>(3,2);
-  /*
-  ma->random_fill(3.0,4.0);
-  mb->random_fill(3.0,4.0);
-  */
+
   ma_openmp->fill();
   mb_openmp->fill();
 
@@ -55,11 +68,7 @@ int main(void){
   // Blas matrix multiplication
   std::unique_ptr<Matrix> ma_blas = std::make_unique<BlasMatrix<double>>(2,3);
   std::unique_ptr<Matrix> mb_blas = std::make_unique<BlasMatrix<double>>(3,2);
-  /*
-  ma_blas->random_fill(3.0,4.0);
-  mb_blas->random_fill(3.0,4.0);
-  */
-
+ 
   ma_blas->fill();
   mb_blas->fill();
 

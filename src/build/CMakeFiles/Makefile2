@@ -59,10 +59,47 @@ RM = /opt/cmake/3.12.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/c85980/Desk/File_Code/hpk2/hpk/src
+CMAKE_SOURCE_DIR = /home/c85980/hpk/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/c85980/Desk/File_Code/hpk2/hpk/src/build
+CMAKE_BINARY_DIR = /home/c85980/hpk/src/build
+
+#=============================================================================
+# Target rules for target CMakeFiles/test.dir
+
+# All Build rule for target.
+CMakeFiles/test.dir/all:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/c85980/hpk/src/build/CMakeFiles --progress-num=5,6 "Built target test"
+.PHONY : CMakeFiles/test.dir/all
+
+# Include target in all.
+all: CMakeFiles/test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/c85980/hpk/src/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/c85980/hpk/src/build/CMakeFiles 0
+.PHONY : CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: CMakeFiles/test.dir/rule
+
+.PHONY : test
+
+# clean rule for target.
+CMakeFiles/test.dir/clean:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/double_dgemm.dir
@@ -71,7 +108,7 @@ CMAKE_BINARY_DIR = /home/c85980/Desk/File_Code/hpk2/hpk/src/build
 CMakeFiles/double_dgemm.dir/all:
 	$(MAKE) -f CMakeFiles/double_dgemm.dir/build.make CMakeFiles/double_dgemm.dir/depend
 	$(MAKE) -f CMakeFiles/double_dgemm.dir/build.make CMakeFiles/double_dgemm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles --progress-num=1,2 "Built target double_dgemm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/c85980/hpk/src/build/CMakeFiles --progress-num=1,2 "Built target double_dgemm"
 .PHONY : CMakeFiles/double_dgemm.dir/all
 
 # Include target in all.
@@ -81,9 +118,9 @@ all: CMakeFiles/double_dgemm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/double_dgemm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/c85980/hpk/src/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/double_dgemm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/c85980/hpk/src/build/CMakeFiles 0
 .PHONY : CMakeFiles/double_dgemm.dir/rule
 
 # Convenience name for target.
@@ -108,7 +145,7 @@ clean: CMakeFiles/double_dgemm.dir/clean
 CMakeFiles/hpk.dir/all:
 	$(MAKE) -f CMakeFiles/hpk.dir/build.make CMakeFiles/hpk.dir/depend
 	$(MAKE) -f CMakeFiles/hpk.dir/build.make CMakeFiles/hpk.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles --progress-num=3,4 "Built target hpk"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/c85980/hpk/src/build/CMakeFiles --progress-num=3,4 "Built target hpk"
 .PHONY : CMakeFiles/hpk.dir/all
 
 # Include target in all.
@@ -118,9 +155,9 @@ all: CMakeFiles/hpk.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hpk.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/c85980/hpk/src/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hpk.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/c85980/hpk/src/build/CMakeFiles 0
 .PHONY : CMakeFiles/hpk.dir/rule
 
 # Convenience name for target.

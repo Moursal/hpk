@@ -43,10 +43,10 @@ RM = /opt/cmake/3.12.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/c85980/Desk/File_Code/hpk2/hpk/src
+CMAKE_SOURCE_DIR = /home/c85980/hpk/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/c85980/Desk/File_Code/hpk2/hpk/src/build
+CMAKE_BINARY_DIR = /home/c85980/hpk/src/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/double_dgemm.dir/depend.make
@@ -57,31 +57,31 @@ include CMakeFiles/double_dgemm.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/double_dgemm.dir/flags.make
 
-CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.o: CMakeFiles/double_dgemm.dir/flags.make
-CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.o: /home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.o"
-	/home/c85980/ins_gcc/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.o -c /home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx
+CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.o: CMakeFiles/double_dgemm.dir/flags.make
+CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.o: /home/c85980/hpk/examples/double_dgemm.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/c85980/hpk/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.o"
+	/home/c85980/ins_gcc/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.o -c /home/c85980/hpk/examples/double_dgemm.cxx
 
-CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.i"
-	/home/c85980/ins_gcc/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx > CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.i
+CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.i"
+	/home/c85980/ins_gcc/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/c85980/hpk/examples/double_dgemm.cxx > CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.i
 
-CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.s"
-	/home/c85980/ins_gcc/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx -o CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.s
+CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.s"
+	/home/c85980/ins_gcc/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/c85980/hpk/examples/double_dgemm.cxx -o CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.s
 
 # Object files for target double_dgemm
 double_dgemm_OBJECTS = \
-"CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.o"
+"CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.o"
 
 # External object files for target double_dgemm
 double_dgemm_EXTERNAL_OBJECTS =
 
-double_dgemm: CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.o
+double_dgemm: CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.o
 double_dgemm: CMakeFiles/double_dgemm.dir/build.make
 double_dgemm: /usr/lib/libopenblas.so
 double_dgemm: CMakeFiles/double_dgemm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable double_dgemm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/c85980/hpk/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable double_dgemm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/double_dgemm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/double_dgemm.dir/clean:
 .PHONY : CMakeFiles/double_dgemm.dir/clean
 
 CMakeFiles/double_dgemm.dir/depend:
-	cd /home/c85980/Desk/File_Code/hpk2/hpk/src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/c85980/Desk/File_Code/hpk2/hpk/src /home/c85980/Desk/File_Code/hpk2/hpk/src /home/c85980/Desk/File_Code/hpk2/hpk/src/build /home/c85980/Desk/File_Code/hpk2/hpk/src/build /home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles/double_dgemm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/c85980/hpk/src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/c85980/hpk/src /home/c85980/hpk/src /home/c85980/hpk/src/build /home/c85980/hpk/src/build /home/c85980/hpk/src/build/CMakeFiles/double_dgemm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/double_dgemm.dir/depend
 

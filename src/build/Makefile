@@ -48,10 +48,10 @@ RM = /opt/cmake/3.12.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/c85980/Desk/File_Code/hpk2/hpk/src
+CMAKE_SOURCE_DIR = /home/c85980/hpk/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/c85980/Desk/File_Code/hpk2/hpk/src/build
+CMAKE_BINARY_DIR = /home/c85980/hpk/src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles /home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/c85980/hpk/src/build/CMakeFiles /home/c85980/hpk/src/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/c85980/hpk/src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -155,6 +155,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 #=============================================================================
 # Target rules for targets named double_dgemm
@@ -209,32 +222,59 @@ core/hpk.cxx.s:
 	$(MAKE) -f CMakeFiles/hpk.dir/build.make CMakeFiles/hpk.dir/core/hpk.cxx.s
 .PHONY : core/hpk.cxx.s
 
-home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.o: home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.o
+home/c85980/hpk/examples/double_dgemm.o: home/c85980/hpk/examples/double_dgemm.cxx.o
 
-.PHONY : home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.o
+.PHONY : home/c85980/hpk/examples/double_dgemm.o
 
 # target to build an object file
-home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.o:
-	$(MAKE) -f CMakeFiles/double_dgemm.dir/build.make CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.o
-.PHONY : home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.o
+home/c85980/hpk/examples/double_dgemm.cxx.o:
+	$(MAKE) -f CMakeFiles/double_dgemm.dir/build.make CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.o
+.PHONY : home/c85980/hpk/examples/double_dgemm.cxx.o
 
-home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.i: home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.i
+home/c85980/hpk/examples/double_dgemm.i: home/c85980/hpk/examples/double_dgemm.cxx.i
 
-.PHONY : home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.i
+.PHONY : home/c85980/hpk/examples/double_dgemm.i
 
 # target to preprocess a source file
-home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.i:
-	$(MAKE) -f CMakeFiles/double_dgemm.dir/build.make CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.i
-.PHONY : home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.i
+home/c85980/hpk/examples/double_dgemm.cxx.i:
+	$(MAKE) -f CMakeFiles/double_dgemm.dir/build.make CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.i
+.PHONY : home/c85980/hpk/examples/double_dgemm.cxx.i
 
-home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.s: home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.s
+home/c85980/hpk/examples/double_dgemm.s: home/c85980/hpk/examples/double_dgemm.cxx.s
 
-.PHONY : home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.s
+.PHONY : home/c85980/hpk/examples/double_dgemm.s
 
 # target to generate assembly for a file
-home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.s:
-	$(MAKE) -f CMakeFiles/double_dgemm.dir/build.make CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.s
-.PHONY : home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.s
+home/c85980/hpk/examples/double_dgemm.cxx.s:
+	$(MAKE) -f CMakeFiles/double_dgemm.dir/build.make CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.s
+.PHONY : home/c85980/hpk/examples/double_dgemm.cxx.s
+
+home/c85980/hpk/examples/test.o: home/c85980/hpk/examples/test.cxx.o
+
+.PHONY : home/c85980/hpk/examples/test.o
+
+# target to build an object file
+home/c85980/hpk/examples/test.cxx.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/c85980/hpk/examples/test.cxx.o
+.PHONY : home/c85980/hpk/examples/test.cxx.o
+
+home/c85980/hpk/examples/test.i: home/c85980/hpk/examples/test.cxx.i
+
+.PHONY : home/c85980/hpk/examples/test.i
+
+# target to preprocess a source file
+home/c85980/hpk/examples/test.cxx.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/c85980/hpk/examples/test.cxx.i
+.PHONY : home/c85980/hpk/examples/test.cxx.i
+
+home/c85980/hpk/examples/test.s: home/c85980/hpk/examples/test.cxx.s
+
+.PHONY : home/c85980/hpk/examples/test.s
+
+# target to generate assembly for a file
+home/c85980/hpk/examples/test.cxx.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/c85980/hpk/examples/test.cxx.s
+.PHONY : home/c85980/hpk/examples/test.cxx.s
 
 # Help Target
 help:
@@ -248,14 +288,18 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... double_dgemm"
 	@echo "... hpk"
 	@echo "... core/hpk.o"
 	@echo "... core/hpk.i"
 	@echo "... core/hpk.s"
-	@echo "... home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.o"
-	@echo "... home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.i"
-	@echo "... home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.s"
+	@echo "... home/c85980/hpk/examples/double_dgemm.o"
+	@echo "... home/c85980/hpk/examples/double_dgemm.i"
+	@echo "... home/c85980/hpk/examples/double_dgemm.s"
+	@echo "... home/c85980/hpk/examples/test.o"
+	@echo "... home/c85980/hpk/examples/test.i"
+	@echo "... home/c85980/hpk/examples/test.s"
 .PHONY : help
 
 

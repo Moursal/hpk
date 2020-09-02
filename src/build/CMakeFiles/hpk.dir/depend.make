@@ -8,5 +8,6 @@ CMakeFiles/hpk.dir/core/hpk.cxx.o: ../kernels/dgemm/dgemm_kernel.hxx
 CMakeFiles/hpk.dir/core/hpk.cxx.o: ../types/blas_matrix.hxx
 CMakeFiles/hpk.dir/core/hpk.cxx.o: ../types/matrix.hxx
 CMakeFiles/hpk.dir/core/hpk.cxx.o: ../types/openmp_matrix.hxx
+CMakeFiles/hpk.dir/core/hpk.cxx.o: ../types/pstl_matrix.hxx
 CMakeFiles/hpk.dir/core/hpk.cxx.o: ../types/tbb_matrix.hxx
 

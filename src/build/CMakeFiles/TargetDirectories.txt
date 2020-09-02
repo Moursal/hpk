@@ -1,8 +1,9 @@
-/home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles/install/strip.dir
-/home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles/install/local.dir
-/home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles/install.dir
-/home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles/list_install_components.dir
-/home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles/rebuild_cache.dir
-/home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles/edit_cache.dir
-/home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles/double_dgemm.dir
-/home/c85980/Desk/File_Code/hpk2/hpk/src/build/CMakeFiles/hpk.dir
+/home/c85980/hpk/src/build/CMakeFiles/install/strip.dir
+/home/c85980/hpk/src/build/CMakeFiles/install/local.dir
+/home/c85980/hpk/src/build/CMakeFiles/install.dir
+/home/c85980/hpk/src/build/CMakeFiles/list_install_components.dir
+/home/c85980/hpk/src/build/CMakeFiles/rebuild_cache.dir
+/home/c85980/hpk/src/build/CMakeFiles/edit_cache.dir
+/home/c85980/hpk/src/build/CMakeFiles/test.dir
+/home/c85980/hpk/src/build/CMakeFiles/double_dgemm.dir
+/home/c85980/hpk/src/build/CMakeFiles/hpk.dir

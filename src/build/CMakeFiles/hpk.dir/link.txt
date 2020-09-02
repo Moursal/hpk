@@ -1,1 +1,1 @@
-/home/c85980/ins_gcc/bin/c++     CMakeFiles/hpk.dir/core/hpk.cxx.o  -o hpk /usr/lib/libopenblas.so -L/home/c85980/Desk/Tools/tbb-2020.3-lin/tbb/lib/intel64/gcc4.8 -ltbb 
+/home/c85980/ins_gcc/bin/c++   -g   CMakeFiles/hpk.dir/core/hpk.cxx.o  -o hpk /usr/lib/libopenblas.so -L/home/c85980/Desk/Tools/tbb-2020.3-lin/tbb/lib/intel64/gcc4.8 -ltbb 

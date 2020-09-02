@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/double_dgemm.dir/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx.o"
+  "CMakeFiles/double_dgemm.dir/home/c85980/hpk/examples/double_dgemm.cxx.o"
   "double_dgemm.pdb"
   "double_dgemm"
 )

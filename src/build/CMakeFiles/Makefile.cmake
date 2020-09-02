@@ -110,6 +110,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/test.dir/DependInfo.cmake"
   "CMakeFiles/double_dgemm.dir/DependInfo.cmake"
   "CMakeFiles/hpk.dir/DependInfo.cmake"
   )

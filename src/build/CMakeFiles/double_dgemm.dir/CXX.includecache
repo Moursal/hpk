@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/c85980/Desk/File_Code/hpk2/hpk/examples/double_dgemm.cxx
+/home/c85980/hpk/examples/double_dgemm.cxx
 iostream
 -
 string
 -
 ../src/types/blas_matrix.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/blas_matrix.hxx
+/home/c85980/hpk/src/types/blas_matrix.hxx
 ../src/types/openmp_matrix.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/openmp_matrix.hxx
+/home/c85980/hpk/src/types/openmp_matrix.hxx
 ../src/kernels/dgemm/dgemm_kernel.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/kernels/dgemm/dgemm_kernel.hxx
+/home/c85980/hpk/src/kernels/dgemm/dgemm_kernel.hxx
 
-/home/c85980/Desk/File_Code/hpk2/hpk/src/core/kernel.hxx
+/home/c85980/hpk/src/core/kernel.hxx
 string
 -
 vector
 -
 
-/home/c85980/Desk/File_Code/hpk2/hpk/src/kernels/dgemm/dgemm_kernel.hxx
+/home/c85980/hpk/src/kernels/dgemm/dgemm_kernel.hxx
 ../../core/kernel.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/core/kernel.hxx
+/home/c85980/hpk/src/core/kernel.hxx
 ../../types/matrix.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/matrix.hxx
+/home/c85980/hpk/src/types/matrix.hxx
 
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/blas_matrix.hxx
+/home/c85980/hpk/src/types/blas_matrix.hxx
 cblas.h
 -
 cstdlib
@@ -42,13 +42,13 @@ vector
 sstream
 -
 matrix.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/matrix.hxx
+/home/c85980/hpk/src/types/matrix.hxx
 
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/matrix.hxx
+/home/c85980/hpk/src/types/matrix.hxx
 iostream
 -
 
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/openmp_matrix.hxx
+/home/c85980/hpk/src/types/openmp_matrix.hxx
 cstdlib
 -
 memory
@@ -60,5 +60,5 @@ vector
 sstream
 -
 matrix.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/matrix.hxx
+/home/c85980/hpk/src/types/matrix.hxx
 

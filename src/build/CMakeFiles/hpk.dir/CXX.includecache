@@ -6,37 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/home/c85980/Desk/File_Code/hpk2/hpk/src/core/hpk.cxx
+/home/c85980/hpk/src/core/hpk.cxx
 iostream
 -
 string
 -
+chrono
+-
 ../types/blas_matrix.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/blas_matrix.hxx
+/home/c85980/hpk/src/types/blas_matrix.hxx
 ../types/openmp_matrix.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/openmp_matrix.hxx
+/home/c85980/hpk/src/types/openmp_matrix.hxx
 ../types/tbb_matrix.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/tbb_matrix.hxx
+/home/c85980/hpk/src/types/tbb_matrix.hxx
+../types/pstl_matrix.hxx
+/home/c85980/hpk/src/types/pstl_matrix.hxx
 ../kernels/dgemm/dgemm_kernel.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/kernels/dgemm/dgemm_kernel.hxx
+/home/c85980/hpk/src/kernels/dgemm/dgemm_kernel.hxx
 hpk_utils.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/core/hpk_utils.hxx
+/home/c85980/hpk/src/core/hpk_utils.hxx
 
-/home/c85980/Desk/File_Code/hpk2/hpk/src/core/hpk_utils.hxx
+/home/c85980/hpk/src/core/hpk_utils.hxx
 
-/home/c85980/Desk/File_Code/hpk2/hpk/src/core/kernel.hxx
+/home/c85980/hpk/src/core/kernel.hxx
 string
 -
 vector
 -
 
-/home/c85980/Desk/File_Code/hpk2/hpk/src/kernels/dgemm/dgemm_kernel.hxx
+/home/c85980/hpk/src/kernels/dgemm/dgemm_kernel.hxx
 ../../core/kernel.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/core/kernel.hxx
+/home/c85980/hpk/src/core/kernel.hxx
 ../../types/matrix.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/matrix.hxx
+/home/c85980/hpk/src/types/matrix.hxx
 
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/blas_matrix.hxx
+/home/c85980/hpk/src/types/blas_matrix.hxx
 cblas.h
 -
 cstdlib
@@ -48,13 +52,13 @@ vector
 sstream
 -
 matrix.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/matrix.hxx
+/home/c85980/hpk/src/types/matrix.hxx
 
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/matrix.hxx
+/home/c85980/hpk/src/types/matrix.hxx
 iostream
 -
 
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/openmp_matrix.hxx
+/home/c85980/hpk/src/types/openmp_matrix.hxx
 cstdlib
 -
 memory
@@ -66,9 +70,33 @@ vector
 sstream
 -
 matrix.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/matrix.hxx
+/home/c85980/hpk/src/types/matrix.hxx
 
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/tbb_matrix.hxx
+/home/c85980/hpk/src/types/pstl_matrix.hxx
+cstdlib
+-
+memory
+-
+vector
+-
+functional
+-
+sstream
+-
+execution
+-
+algorithm
+-
+numeric
+-
+matrix.hxx
+/home/c85980/hpk/src/types/matrix.hxx
+tbb/parallel_for.h
+/home/c85980/hpk/src/types/tbb/parallel_for.h
+tbb/blocked_range.h
+/home/c85980/hpk/src/types/tbb/blocked_range.h
+
+/home/c85980/hpk/src/types/tbb_matrix.hxx
 cstdlib
 -
 memory
@@ -80,9 +108,9 @@ sstream
 execution
 -
 matrix.hxx
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/matrix.hxx
+/home/c85980/hpk/src/types/matrix.hxx
 tbb/parallel_for.h
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/tbb/parallel_for.h
+/home/c85980/hpk/src/types/tbb/parallel_for.h
 tbb/blocked_range.h
-/home/c85980/Desk/File_Code/hpk2/hpk/src/types/tbb/blocked_range.h
+/home/c85980/hpk/src/types/tbb/blocked_range.h
 

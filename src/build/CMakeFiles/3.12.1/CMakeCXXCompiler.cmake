@@ -72,5 +72,5 @@ endif()
 
 
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/home/c85980/ins_gcc/lib64;/home/c85980/ins_gcc/lib/gcc/x86_64-pc-linux-gnu/10.1.0;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/home/c85980/ins_gcc/lib;/home/c85980/Desk/Tools/tbb-2020.3-lin/tbb/lib/intel64/gcc4.8")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/home/c85980/ins_gcc/lib64;/home/c85980/ins_gcc/lib/gcc/x86_64-pc-linux-gnu/10.1.0;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/home/c85980/ins_gcc/lib;/home/c85980/intel/tbb/lib/intel64/gcc4.8")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
